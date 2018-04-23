@@ -1,0 +1,84 @@
+{
+  "title": {
+    "show": true,
+    "text": ""
+  },
+  "legend": {
+    "type": "scroll",
+    "show": true,
+    "data": ["龙门镇", "古岳峰镇", "龙潭镇", "渌口镇", "朱亭镇", "淦田镇", "南洲镇", "龙船镇"],
+    "bottom": 0
+  },
+  "series": [{
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "龙门镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [0, 0, 3, 0, 0, 1, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "古岳峰镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "龙潭镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "渌口镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "朱亭镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "淦田镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "coordinateSystem": "polar",
+    "name": "南洲镇",
+    "stack": "宗教",
+    "type": "bar"
+  }, {
+    "data": [2, 0, 0, 0, 8, 1, 2, 0, 1],
+    "coordinateSystem": "polar",
+    "name": "龙船镇",
+    "stack": "宗教",
+    "type": "bar"
+  }],
+  "tooltip": {
+    "trigger": "axis",
+    "formatter": "",
+    "axisPointer": {
+      "type": "line"
+    }
+  },
+  "toolbox": {
+    "show": true,
+    "orient": "horizontal",
+    "feature": {
+      "saveAsImage": {},
+      "dataView": {},
+      "restore": {}
+    }
+  },
+  "angleAxis": {
+    "type": "category",
+    "data": ["喇嘛教", "东正教", "天主教", "佛教", "其他", "伊斯兰教", "基督教", "无宗教信仰", "道教"],
+    "z": 10
+  },
+  "radiusAxis": {},
+  "polar": {}
+}

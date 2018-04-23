@@ -1,0 +1,128 @@
+{
+  "title": {
+    "show": true,
+    "text": ""
+  },
+  "legend": {
+    "type": "scroll",
+    "show": true,
+    "data": ["男性", "女性", "未知的性别", "未说明的性别"],
+    "bottom": 0
+  },
+  "grid": [{
+    "show": "true",
+    "left": "4%",
+    "containLabel": true,
+    "width": "46%"
+  }, {
+    "show": "true",
+    "right": "4%",
+    "containLabel": true,
+    "width": "46%"
+  }],
+  "xAxis": [{
+    "name": "数量",
+    "type": "value",
+    "nameTextStyle": {
+      "fontWeight": "bold"
+    },
+    "nameLocation": "center",
+    "nameGap": 30,
+    "inverse": true
+  }, {
+    "name": "数量",
+    "type": "value",
+    "nameTextStyle": {
+      "fontWeight": "bold"
+    },
+    "nameLocation": "center",
+    "nameGap": 30,
+    "gridIndex": 1
+  }],
+  "yAxis": [{
+    "name": "年龄段",
+    "nameTextStyle": {
+      "fontWeight": "bold"
+    },
+    "type": "category",
+    "axisTick": {
+      "show": false
+    },
+    "data": ["1-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61-70", "71-80", "81-90", "91-100", "101-110", "111-120"],
+    "axisLabel": {
+      "interval": 0
+    }
+  }, {
+    "gridIndex": 1,
+    "type": "category",
+    "position": "right",
+    "axisTick": {
+      "show": false
+    },
+    "data": ["1-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61-70", "71-80", "81-90", "91-100", "101-110", "111-120"],
+    "axisLabel": {
+      "interval": 0
+    }
+  }],
+  "series": [{
+    "name": "男性",
+    "data": [609, 496, 491, 833, 1161, 744, 486, 217, 98, 11, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "男性",
+    "yAxisIndex": 1,
+    "xAxisIndex": 1,
+    "data": [609, 496, 491, 833, 1161, 744, 486, 217, 98, 11, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "女性",
+    "data": [536, 454, 523, 986, 1121, 733, 473, 237, 65, 6, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "女性",
+    "yAxisIndex": 1,
+    "xAxisIndex": 1,
+    "data": [536, 454, 523, 986, 1121, 733, 473, 237, 65, 6, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "未知的性别",
+    "data": [23, 37, 27, 42, 99, 24, 21, 7, 1, 0, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "未知的性别",
+    "yAxisIndex": 1,
+    "xAxisIndex": 1,
+    "data": [23, 37, 27, 42, 99, 24, 21, 7, 1, 0, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "未说明的性别",
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "type": "bar"
+  }, {
+    "name": "未说明的性别",
+    "yAxisIndex": 1,
+    "xAxisIndex": 1,
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "type": "bar"
+  }],
+  "tooltip": {
+    "trigger": "axis",
+    "formatter": "",
+    "axisPointer": {
+      "type": "line"
+    }
+  },
+  "toolbox": {
+    "show": true,
+    "orient": "horizontal",
+    "feature": {
+      "saveAsImage": {},
+      "dataView": {},
+      "dataZoom": {},
+      "restore": {},
+      "magicType": {
+        "type": ["line", "bar", "stack", "tiled"]
+      }
+    }
+  }
+}

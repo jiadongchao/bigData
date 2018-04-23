@@ -1,0 +1,54 @@
+{
+  "data": [{
+    "menuId": "2",
+    "menuName": "事项统计",
+    "uri": "/uri1",
+    "menuChild": [{
+      "menuId": "11",
+      "menuName": "事项统计1111",
+      "uri": "/uri11"
+    },
+      {
+        "menuId": "12",
+        "menuName": "事项统计222",
+        "uri": "/uri12"
+      },
+      {
+        "menuId": "13",
+        "menuName": "事项统计3333",
+        "uri": "/uri13"
+      }
+    ]
+  }, {
+    "menuId": "2",
+    "menuName": "办件统计",
+    "uri": "/uri2",
+    "menuChild": [{
+      "menuId": "21",
+      "menuName": "办件统计1111",
+      "uri": "/uri21"
+    },
+      {
+        "menuId": "22",
+        "menuName": "办件统计2222",
+        "uri": "/uri22"
+      },
+      {
+        "menuId": "23",
+        "menuName": "办件统计3333",
+        "uri": "/uri23"
+      },
+      {
+        "menuId": "24",
+        "menuName": "办件统计444",
+        "uri": "/uri24"
+      },
+      {
+        "menuId": "25",
+        "menuName": "办件统计5555",
+        "uri": "/uri25"
+      }
+    ]
+  }],
+  "code": "200"
+}

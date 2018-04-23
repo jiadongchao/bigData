@@ -1,0 +1,34 @@
+body{min-width: 1260px;overflow-y: hidden;overflow-x: auto;font-family: "微软雅黑", "宋体",Helvetica, Arial,sans-serif}
+.header{ min-width: 1260px;height: 30px;  line-height: 30px; background-color: #313237; color: #f8f8f8; width: 100%;  position: absolute;  top: 0;z-index: 20 }
+.head_title_wrap{display: inline-block;}
+.head_title{padding-left: 20px;letter-spacing: 5px;}
+.head_info_wrap{display: inline-block;float: right;padding-right: 20px;}
+
+.navWrap{width: 100%; height: 78px;position: absolute; top: 30px;z-index: 20;    background-color: #4968c2; }
+.nav_ul{display: inline-block;}
+.nav_li{width: 105px;height: 78px;float: left; text-align: center;    position: relative; }
+.nav_li_act .nav_li_a{background: url(../images/menu_select2.jpg) no-repeat center;}
+.nav_li_span{color: #ffffff;font-size: 12px;}
+.nav_li_a{width: 100%;height: 100%;display: inline-block;font-size: 14px;}
+.nav_li_a:hover{background: url(../images/menu_select2.jpg) no-repeat center;}
+.c_img{width: 70px;  height: 40px;  margin: auto;  overflow: hidden;  padding-top: 10px;  padding-bottom: 5px;}
+.c_img_icon{ width: 25px; height: 25px;}
+.more_li{display: none;
+		width: 105px;height: 78px;float: left; text-align: center;    position: relative; }
+.more_img{margin-top: 20px;}
+.more_nav{    display: none; z-index: 10;  position: absolute;  right: 0; width: 230px; border: solid 2px #2395ee; background: #4363ba; padding: 0 8px;}
+.tri_icon{ display: none; z-index: 11; position: absolute; left: 50%; top: 58px; margin-left: -11px; border: solid 11px transparent; border-bottom-color: white;}
+
+.content{height: 100%;padding-left: 250px; padding-top: 108px;position: relative;}
+.c_left{position: absolute; padding-top: 108px;left: 0;width: 250px;top:0;height: 200px;}
+.c_right{position: absolute; padding-top: 108px;height: 100%; top: 0;  left: 250px;  right: 0;  bottom: 0;  overflow-x: hidden;  overflow-y: auto; background-color: #ffffff;  }
+.container{padding: 0 15px;}
+.footer{ width:100%;height: 28px;  line-height: 28px;  background: #cfcfcf;  border-top: 1px solid #bebebe;
+		color: #565656;  position: absolute;  bottom: 0;  text-align: center;  font-size: 12px;}
+
+.child_menu{  background-color: #537ba2;  }
+.child_menu li{ height: 38px;  line-height: 38px;  color: #fff;  text-align: center;  cursor: pointer;  position: relative;  }
+.child_menu li:before{  content: "";  width: 2px;  height: 38px;  background-color: #425668;  left: 24px;  position: absolute;  }
+.child_menu li:after{  content: "";  width: 10px;  height: 10px;  background-color: #425668;  border-radius: 50%;  left: 20px;  position: absolute;  top: 12px;  }
+
+

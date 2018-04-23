@@ -1,0 +1,54 @@
+{
+  "data": [{
+    "menuId": "1",
+    "menuName": "人口分析",
+    "uri": "/uri1",
+    "menuChild": [{
+      "menuId": "11",
+      "menuName": "基本信息统计分析11",
+      "uri": "1-0-0"
+    },
+      {
+        "menuId": "12",
+        "menuName": "基本信息统计分析12",
+        "uri": "1-0-0"
+      },
+      {
+        "menuId": "13",
+        "menuName": "基本信息统计分析13",
+        "uri": "/uri13"
+      }
+    ]
+  }, {
+    "menuId": "2",
+    "menuName": "房屋分析",
+    "uri": "/uri2",
+    "menuChild": [{
+      "menuId": "21",
+      "menuName": "房屋分析统计分析21",
+      "uri": "/uri21"
+    },
+      {
+        "menuId": "22",
+        "menuName": "房屋分析统计分析22",
+        "uri": "/uri22"
+      },
+      {
+        "menuId": "23",
+        "menuName": "房屋分析统计分析23",
+        "uri": "/uri23"
+      },
+      {
+        "menuId": "24",
+        "menuName": "房屋分析统计分析24",
+        "uri": "/uri24"
+      },
+      {
+        "menuId": "25",
+        "menuName": "房屋分析统计分析25",
+        "uri": "/uri25"
+      }
+    ]
+  }],
+  "code": "200"
+}

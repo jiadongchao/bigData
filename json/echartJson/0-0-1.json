@@ -1,0 +1,124 @@
+{
+  "title": {
+    "show": true,
+    "text": ""
+  },
+  "legend": {
+    "type": "scroll",
+    "show": true,
+    "data": ["其他", "计生管理", "综治维稳", "安全工作", "环境卫生"],
+    "bottom": 0
+  },
+  "grid": {
+    "top": 30,
+    "left": 2,
+    "bottom": 30,
+    "right": 40,
+    "show": true,
+    "containLabel": true
+  },
+  "xAxis": {
+    "position": "bottom",
+    "type": "category",
+    "name": "年份",
+    "nameLocation": "end",
+    "nameTextStyle": {
+      "fontWeight": "bold"
+    },
+    "data": [2011.0, 2012.0, 2013.0, 2014.0, 2015.0, 2016.0, 2017.0],
+    "splitLine": false,
+    "boundaryGap": false,
+    "axisTick": {
+      "alignWithLabel": true
+    },
+    "axisLabel": {
+      "show": true,
+      "interval": 0
+    }
+  },
+  "yAxis": {
+    "position": "left",
+    "type": "value",
+    "name": "数量",
+    "nameLocation": "end",
+    "nameTextStyle": {
+      "fontWeight": "bold"
+    }
+  },
+  "series": [{
+    "name": "其他",
+    "data": [0, 4, 0, 4, 0, 4, 12],
+    "smooth": true,
+    "type": "line",
+    "label": {
+      "normal": {
+        "show": "true",
+        "position": "top"
+      }
+    }
+  }, {
+    "name": "计生管理",
+    "data": [0, 0, 0, 0, 4, 1, 9],
+    "smooth": true,
+    "type": "line",
+    "label": {
+      "normal": {
+        "show": "true",
+        "position": "top"
+      }
+    }
+  }, {
+    "name": "综治维稳",
+    "data": [0, 0, 8, 0, 3, 3, 15],
+    "smooth": true,
+    "type": "line",
+    "label": {
+      "normal": {
+        "show": "true",
+        "position": "top"
+      }
+    }
+  }, {
+    "name": "安全工作",
+    "data": [5, 0, 0, 0, 1, 0, 16],
+    "smooth": true,
+    "type": "line",
+    "label": {
+      "normal": {
+        "show": "true",
+        "position": "top"
+      }
+    }
+  }, {
+    "name": "环境卫生",
+    "data": [7, 0, 0, 0, 0, 0, 12],
+    "smooth": true,
+    "type": "line",
+    "label": {
+      "normal": {
+        "show": "true",
+        "position": "top"
+      }
+    }
+  }],
+  "tooltip": {
+    "trigger": "axis",
+    "formatter": "",
+    "axisPointer": {
+      "type": "line"
+    }
+  },
+  "toolbox": {
+    "show": true,
+    "orient": "horizontal",
+    "feature": {
+      "saveAsImage": {},
+      "dataView": {},
+      "dataZoom": {},
+      "restore": {},
+      "magicType": {
+        "type": ["line", "bar", "stack", "tiled"]
+      }
+    }
+  }
+}

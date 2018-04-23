@@ -1,0 +1,41 @@
+{
+  "data": [{
+    "menuId": "2",
+    "menuName": "主动推送服务",
+    "uri": "/uri1",
+    "menuChild": [{
+      "menuId": "11",
+      "menuName": "主动推送服务到期提醒设置",
+      "uri": "/uri11"
+    },
+      {
+        "menuId": "12",
+        "menuName": "证件到期设置",
+        "uri": "/uri12"
+      }
+
+    ]
+  }, {
+    "menuId": "2",
+    "menuName": "主动精准服务",
+    "uri": "/uri2",
+    "menuChild": [{
+      "menuId": "21",
+      "menuName": "主动精准服务",
+      "uri": "/uri21"
+    },
+      {
+        "menuId": "22",
+        "menuName": "主动精准服务",
+        "uri": "/uri22"
+      },
+      {
+        "menuId": "23",
+        "menuName": "主动精准服务",
+        "uri": "/uri23"
+      }
+
+    ]
+  }],
+  "code": "200"
+}

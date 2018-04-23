@@ -1,0 +1,54 @@
+{
+  "data": [{
+    "menuId": "1",
+    "menuName": "网格员信息",
+    "uri": "/uri1",
+    "menuChild": [{
+      "menuId": "11",
+      "menuName": "网格员信息11111",
+      "uri": "0-0-0"
+    },
+      {
+        "menuId": "12",
+        "menuName": "网格员信息222",
+        "uri": "0-0-1"
+      },
+      {
+        "menuId": "13",
+        "menuName": "网格员信息3333",
+        "uri": "/uri13"
+      }
+    ]
+  }, {
+    "menuId": "2",
+    "menuName": "数据采集",
+    "uri": "/uri2",
+    "menuChild": [{
+      "menuId": "21",
+      "menuName": "数据采集11111",
+      "uri": "/uri21"
+    },
+      {
+        "menuId": "22",
+        "menuName": "数据采集22222",
+        "uri": "/uri22"
+      },
+      {
+        "menuId": "23",
+        "menuName": "数据采集3333",
+        "uri": "/uri23"
+      },
+      {
+        "menuId": "24",
+        "menuName": "数据采集44444",
+        "uri": "/uri24"
+      },
+      {
+        "menuId": "25",
+        "menuName": "数据采集555555",
+        "uri": "/uri25"
+      }
+    ]
+  }],
+  "code": "200"
+}
