@@ -20,8 +20,8 @@ body{min-width: 1260px;overflow-y: hidden;overflow-x: auto;font-family: "微软�
 .tri_icon{ display: none; z-index: 11; position: absolute; left: 50%; top: 58px; margin-left: -11px; border: solid 11px transparent; border-bottom-color: white;}
 
 .content{height: 100%;padding-left: 250px; padding-top: 108px;position: relative;}
-.c_left{position: absolute; padding-top: 108px;left: 0;width: 250px;top:0;height: 200px;}
-.c_right{position: absolute; padding-top: 108px;height: 100%; top: 0;  left: 250px;  right: 0;  bottom: 0;  overflow-x: hidden;  overflow-y: auto; background-color: #ffffff;  }
+.c_left{ float: left;width: 250px;height: 100%;margin-left: -250px;display: inline-block;}
+.c_right{height: 100%;overflow-x: hidden;  overflow-y: auto; background-color: #ffffff; box-sizing:border-box;width: 100%;  }
 .container{padding: 0 15px;}
 .footer{ width:100%;height: 28px;  line-height: 28px;  background: #cfcfcf;  border-top: 1px solid #bebebe;
 		color: #565656;  position: absolute;  bottom: 0;  text-align: center;  font-size: 12px;}
@@ -30,5 +30,5 @@ body{min-width: 1260px;overflow-y: hidden;overflow-x: auto;font-family: "微软�
 .child_menu li{ height: 38px;  line-height: 38px;  color: #fff;  text-align: center;  cursor: pointer;  position: relative;  }
 .child_menu li:before{  content: "";  width: 2px;  height: 38px;  background-color: #425668;  left: 24px;  position: absolute;  }
 .child_menu li:after{  content: "";  width: 10px;  height: 10px;  background-color: #425668;  border-radius: 50%;  left: 20px;  position: absolute;  top: 12px;  }
-
-
+/*右侧内容区滚动条的样式*/
+.c_right .mCSB_dragger .mCSB_dragger_bar{background-color: #4363ba}

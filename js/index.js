@@ -7,6 +7,8 @@
       this.navFn();
       this.getMenuFn(0);
       this.loadHtml(0,"0-0-0");
+      this.customScroll();
+
     },
     data:{
       getMenuUrl:"./json/menu",
@@ -149,10 +151,25 @@
     * 加载js
     * */
     loadJs:function (tag,uri){
-    $.ajax({
-      url:"./js/page"+tag+"/"+uri+".js"
-    });
-  }
+      $.ajax({
+        url:"./js/page"+tag+"/"+uri+".js"
+      })
+
+    },
+    /*
+     * 自定义滚动条
+     * */
+    customScroll:function () {
+      $(window).load(function() {
+        $(".c_left").mCustomScrollbar({
+          autoHideScrollbar:true
+        });
+        $(".c_right").mCustomScrollbar({
+          autoHideScrollbar:true,
+          scrollInertia:500,
+        });
+      })
+    }
 
 
   };
